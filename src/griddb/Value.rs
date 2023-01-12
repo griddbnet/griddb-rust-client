@@ -17,7 +17,7 @@
 use crate::griddb::Const::*;
 use crate::griddb::Type::*;
 use std::ffi::CString;
-extern crate griddbnet-sys as ffi;
+extern crate griddbnet_sys as ffi;
 pub type GSRow = ffi::GSRowTag;
 
 #[derive(Debug, Copy, Clone)]
