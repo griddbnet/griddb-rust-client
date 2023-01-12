@@ -6,6 +6,7 @@ description = "GridDB Rust client"
 keywords = ["griddb", "iot", "database", "big data", "time series"]
 license = "Apache-2.0"
 repository = "https://github.com/griddbnet/griddb-rust-client"
+homepage = "https://griddb.net/en/"
 readme = "README.md"
 
 
