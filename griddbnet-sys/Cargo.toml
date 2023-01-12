@@ -16,7 +16,7 @@ include = [
 ]
 
 [lib]
-name = "griddbnet-sys"
+name = "griddbnet_sys"
 path = "src/lib.rs"
 
 [dependencies]
