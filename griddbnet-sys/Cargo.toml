@@ -1,7 +1,7 @@
 [package]
 name = "griddbnet-sys"
 version = "5.0.0"
-edition = "2023"
+edition = "2021"
 description = "binding for griddb rust client"
 license = "Apache-2.0"
 
