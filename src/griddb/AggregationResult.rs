@@ -14,7 +14,7 @@
     limitations under the License.
 */
 
-extern crate griddbnet-sys as ffi;
+extern crate griddbnet_sys as ffi;
 
 use chrono::{DateTime, Utc};
 use std::ptr;
