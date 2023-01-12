@@ -1,9 +1,10 @@
 [package]
-name = "griddb-sys"
+name = "griddbnet-sys"
 version = "5.0.0"
-edition = "2021"
+edition = "2023"
+description = "binding for griddb rust client"
+license = "Apache-2.0"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 include = [
   "LICENSE",
   "README.md",
@@ -11,10 +12,11 @@ include = [
   "build.rs",
   "src/*.rs",
   "src/**/*.rs",
+  "include/gridstore.h",
 ]
 
 [lib]
-name = "griddb_sys"
+name = "griddbnet-sys"
 path = "src/lib.rs"
 
 [dependencies]

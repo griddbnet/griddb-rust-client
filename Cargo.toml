@@ -1,11 +1,17 @@
 [package]
-name = "griddb_rust"
+name = "griddb"
 version = "0.6.0"
-edition = "2021"
+edition = "2022"
+description = "GridDB Rust client"
+keywords = ["griddb", "iot", "database", "big data", "time series"]
+license = "Apache-2.0"
+repository = "https://github.com/griddbnet/griddb-rust-client"
+readme = "README.md"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-griddb-sys = { version = "5.0.0", path = "griddb-sys" }
+griddbnet-sys = { version = "5.0.0", path = "griddbnet-sys" }
 chrono = "0.4"
 convert_case = "^0.3.0"

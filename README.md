@@ -1,4 +1,22 @@
-GridDB Rust Client
+GridDB Driver for Rust
+
+This is a fork of the GridDB client library. Please see the original repository [here](https://github.com/griddb/rust_client) for details.
+ 
+
+## Supported functionalities:
+- STRING, BOOL, BYTE, SHORT, INTEGER, LONG, FLOAT, DOUBLE, TIMESTAMP, BLOB type for GridDB
+- Put single row, get row with key
+- Normal query, aggregation with TQL
+
+## Not yet supported:
+- GEOMETRY, Array type for GridDB
+- Multi-Put/Get/Query (batch processing)
+- Timeseries-specific function, affinity
+
+Please refer to the following files for more detailed information.  
+- [Rust Client API Reference](https://griddb.github.io/rust_client/RustAPIReference.htm)
+
+## Get Started
 
 ## Overview
 
@@ -66,34 +84,3 @@ GridDB Server need to be started in advance.
   --> Person: name=name01 status=false count=100 lob=[ABCDEFGHIJ]
 ```
 
-## Function
-
-(available)
-- STRING, BOOL, BYTE, SHORT, INTEGER, LONG, FLOAT, DOUBLE, TIMESTAMP, BLOB type for GridDB
-- Put single row, get row with key
-- Normal query, aggregation with TQL
-
-(not available)
-- GEOMETRY, Array type for GridDB
-- Multi-Put/Get/Query (batch processing)
-- Timeseries-specific function, affinity
-
-Please refer to the following files for more detailed information.  
-- [Rust Client API Reference](https://griddb.github.io/rust_client/RustAPIReference.htm)
-
-Note:
-1. The current API might be changed in the next version.
-2. When you install C Client with RPM or DEB, you don't need to set LD_LIBRARY_PATH.
-
-## Community
-
-* Issues  
-    Use the GitHub issue function if you have any requests, questions, or bug reports.
-* PullRequest  
-    Use the GitHub pull request function if you want to contribute code.
-    You'll need to agree GridDB Contributor License Agreement(CLA_rev1.1.pdf).
-    By using the GitHub pull request function, you shall be deemed to have agreed to GridDB Contributor License Agreement.
-
-## License
-  
-  GridDB Rust Client source license is Apache License, version 2.0.
