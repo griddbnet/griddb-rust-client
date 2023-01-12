@@ -1,6 +1,6 @@
 # GridDB Driver for Rust
 
-This is a fork of the GridDB client library. Please see the original repository [here](https://github.com/griddb/rust_client) for details.
+This is a fork of the GridDB Rust client library. Please see the original repository [here](https://github.com/griddb/rust_client) for details.
  
 
 ## Supported functionalities:
@@ -22,6 +22,7 @@ To use this driver, add the following to your `Cargo.toml`
 ```
 [dependencies]
 griddb = "0.6.0"
+```
 
 ### Connecting to GridDB
 ```
