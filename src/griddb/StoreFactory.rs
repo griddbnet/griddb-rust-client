@@ -14,7 +14,7 @@
     limitations under the License.
 */
 
-extern crate griddb_sys as ffi;
+extern crate griddbnet-sys as ffi;
 
 use crate::griddb::Store::*;
 use crate::griddb::Util::*;
